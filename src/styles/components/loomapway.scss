@@ -1,0 +1,66 @@
+.loo-map-way-holder {
+  background-color: $white;
+  @include xs {
+    padding-bottom: 23px;
+  }
+  @include md {
+    padding-bottom: 41px;
+  }
+}
+.loo-map-parent-icon {
+  // @include lg {
+  //   height: 87px;
+  // }
+}
+.loo-map-for-icon,
+.loo-map-show-way {
+  text-align: left;
+}
+.loo-map-show-way {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.loo-map-show-way-title {
+  color: $darkAqua;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+.loo-map-show-way-desc {
+  font-size: 18px;
+  color: $black;
+}
+.loo-map-show-way-map {
+  text-align: center;
+  width: 100%;
+}
+.loo-map-way-no-map-title {
+  font-size: 16px;
+  padding-top: 20px;
+  line-height: 24px;
+  color: $black;
+  letter-spacing: 0.8px;
+  text-align: center;
+}
+.loo-map-way-live-guide,
+.loo-map-way-live-guide-btn {
+  color: $white;
+  text-align: center;
+}
+.loo-map-way-live-guide-btn {
+  padding-bottom: 100px;
+}
+
+// Need to media query
+.loo-map-show-map {
+  width: 88%;
+  @include lg {
+    width: 30%;
+  }
+  margin: 0 auto;
+}
+.loo-map-way-container {
+  height: 100vh;
+}
+.loo-map-way {
+  min-height: 50vh;
+}

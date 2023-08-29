@@ -1,0 +1,180 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "label": "Ladies toilets",
+      "CreatedAt": "2019-10-28 00:00:00.0000000 +00:00",
+      "UpdatedAt": "2019-10-28 00:00:00.0000000 +00:00"
+    },
+    {
+      "id": 2,
+      "label": "Mens toilets",
+      "CreatedAt": "2019-10-28 00:00:00.0000000 +00:00",
+      "UpdatedAt": "2019-10-28 00:00:00.0000000 +00:00"
+    },
+    {
+      "id": 3,
+      "label": "Accessible toilets",
+      "CreatedAt": "2019-10-28 00:00:00.0000000 +00:00",
+      "UpdatedAt": "2019-10-28 00:00:00.0000000 +00:00"
+    },
+    {
+      "id": 4,
+      "label": "Parents rooms",
+      "CreatedAt": "2019-10-28 00:00:00.0000000 +00:00",
+      "UpdatedAt": "2019-10-28 00:00:00.0000000 +00:00"
+    }
+  ],
+  "looDetails": {
+    "4": [
+      {
+        "id": 1,
+        "name": "The Blue Room",
+        "description": "The Parents room is 350m away from Mayer, on Level 3 at the East end, opposite Target",
+        "isAvailable": 1,
+        "createdAt": "2019-10-28 00:00:00.0000000 +00:00",
+        "updatedAt": "2019-10-28 00:00:00.0000000 +00:00",
+        "geoLocation": "",
+        "category_id": 4,
+        "last_cleaned_time": "2.30 pm",
+        "cleaningInfo": "This facility is cleaned every hour on the half hour using hypoallegernic, biodegradeable and low scent products."
+      }
+    ],
+    "2": [
+      {
+        "id": 2,
+        "name": "The Men Room",
+        "description": "The Men Room is 100m away from target on Level 1 at the East end, opposite Mayer",
+        "isAvailable": 1,
+        "createdAt": "2019-10-28 00:00:00.0000000 +00:00",
+        "updatedAt": "2019-10-28 00:00:00.0000000 +00:00",
+        "geoLocation": "",
+        "category_id": 2,
+        "last_cleaned_time": "3.30 pm",
+        "cleaningInfo": "This facility is cleaned every hour on the half hour using hypoallegernic, biodegradeable and low scent products."
+      }
+    ],
+    "1": [
+      {
+        "id": 3,
+        "name": "The Ladies Room",
+        "description": "The Ladies Room is 50m away, on Level 1 at the East end, opposite Woolsworth",
+        "isAvailable": 1,
+        "createdAt": "2019-10-28 00:00:00.0000000 +00:00",
+        "updatedAt": "2019-10-28 00:00:00.0000000 +00:00",
+        "geoLocation": "",
+        "category_id": 1,
+        "last_cleaned_time": "4.30 pm",
+        "cleaningInfo": "This facility is cleaned every hour on the half hour using hypoallegernic, biodegradeable and low scent products."
+      }
+    ],
+    "3": [
+      {
+        "id": 4,
+        "name": "The Accessible Room",
+        "description": "The Accessible Room is 150m away, on Level 1 at the East end, opposite Target",
+        "isAvailable": 1,
+        "createdAt": "2019-10-28 00:00:00.0000000 +00:00",
+        "updatedAt": "2019-10-28 00:00:00.0000000 +00:00",
+        "geoLocation": "",
+        "category_id": 3,
+        "last_cleaned_time": "1.30 pm",
+        "cleaningInfo": "This facility is cleaned every hour on the half hour using hypoallegernic, biodegradeable and low scent products."
+      }
+    ]
+  },
+  "aminityDetails": {
+    "4": [
+      {
+        "id": 1,
+        "name": "1 x adult toilet",
+        "loo_id": 4,
+        "CreatedAt": "2019-10-28 00:00:00.0000000 +00:00",
+        "UpdatedAt": "2019-10-28 00:00:00.0000000 +00:00"
+      },
+      {
+        "id": 2,
+        "name": "2 x children toilet",
+        "loo_id": 4,
+        "CreatedAt": "2019-10-28 00:00:00.0000000 +00:00",
+        "UpdatedAt": "2019-10-28 00:00:00.0000000 +00:00"
+      },
+      {
+        "id": 3,
+        "name": "3 x arm chairs",
+        "loo_id": 4,
+        "CreatedAt": "2019-10-28 00:00:00.0000000 +00:00",
+        "UpdatedAt": "2019-10-28 00:00:00.0000000 +00:00"
+      }
+    ],
+    "2": [
+      {
+        "id": 1,
+        "name": "1 x adult toilet",
+        "loo_id": 2,
+        "CreatedAt": "2019-10-28 00:00:00.0000000 +00:00",
+        "UpdatedAt": "2019-10-28 00:00:00.0000000 +00:00"
+      },
+      {
+        "id": 2,
+        "name": "2 x children toilet",
+        "loo_id": 2,
+        "CreatedAt": "2019-10-28 00:00:00.0000000 +00:00",
+        "UpdatedAt": "2019-10-28 00:00:00.0000000 +00:00"
+      },
+      {
+        "id": 3,
+        "name": "3 x arm chairs",
+        "loo_id": 2,
+        "CreatedAt": "2019-10-28 00:00:00.0000000 +00:00",
+        "UpdatedAt": "2019-10-28 00:00:00.0000000 +00:00"
+      }
+    ],
+    "1": [
+      {
+        "id": 1,
+        "name": "1 x adult toilet",
+        "loo_id": 1,
+        "CreatedAt": "2019-10-28 00:00:00.0000000 +00:00",
+        "UpdatedAt": "2019-10-28 00:00:00.0000000 +00:00"
+      },
+      {
+        "id": 2,
+        "name": "2 x children toilet",
+        "loo_id": 1,
+        "CreatedAt": "2019-10-28 00:00:00.0000000 +00:00",
+        "UpdatedAt": "2019-10-28 00:00:00.0000000 +00:00"
+      },
+      {
+        "id": 3,
+        "name": "3 x arm chairs",
+        "loo_id": 1,
+        "CreatedAt": "2019-10-28 00:00:00.0000000 +00:00",
+        "UpdatedAt": "2019-10-28 00:00:00.0000000 +00:00"
+      }
+    ],
+    "3": [
+      {
+        "id": 1,
+        "name": "1 x adult toilet",
+        "loo_id": 3,
+        "CreatedAt": "2019-10-28 00:00:00.0000000 +00:00",
+        "UpdatedAt": "2019-10-28 00:00:00.0000000 +00:00"
+      },
+      {
+        "id": 2,
+        "name": "2 x children toilet",
+        "loo_id": 3,
+        "CreatedAt": "2019-10-28 00:00:00.0000000 +00:00",
+        "UpdatedAt": "2019-10-28 00:00:00.0000000 +00:00"
+      },
+      {
+        "id": 3,
+        "name": "3 x arm chairs",
+        "loo_id": 3,
+        "CreatedAt": "2019-10-28 00:00:00.0000000 +00:00",
+        "UpdatedAt": "2019-10-28 00:00:00.0000000 +00:00"
+      }
+    ]
+  }
+}

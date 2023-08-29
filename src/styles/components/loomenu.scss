@@ -1,0 +1,86 @@
+.sidenav {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: green;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 39px;
+  background-image: url("../assets/background.png");
+  background-color: #cccccc;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: $black;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  padding: 16px 0px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+.open-menu {
+  width: 100%;
+}
+
+.close-menu {
+  width: 0px;
+}
+
+.menu-bar {
+  font-size: 30px;
+  cursor: pointer;
+  color: $darkAqua;
+}
+.menu-item {
+  text-align: left;
+  padding: 6px 0px;
+  cursor: pointer;
+}
+.menu-items {
+  padding: 0px 26px;
+}
+.menu-heading {
+  text-align: left;
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 25px 20px;
+}
+.menu-main-heading {
+  color: $darkAqua;
+}
+.menu-container {
+  background-color: #fff;
+  width: 97%;
+  margin-top: 23px;
+}
+.menu-items {
+  text-align: left;
+  font-weight: bold;
+}

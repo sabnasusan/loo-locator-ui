@@ -1,0 +1,22 @@
+.loo-map-header {
+  background-color: $white;
+}
+.loo-map-heading {
+  color: $darkAqua;
+  font-size: 1.75rem;
+}
+.loo-map-menu {
+  width: 45px;
+  font-size: 20px;
+}
+.nav-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;;
+}
+.loo-map-not-available {
+  width: 90%;
+  margin: 0 auto;
+  background-color: rgba(255,51,102,0.21);
+  color: #F36;
+}
